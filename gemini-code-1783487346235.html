@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon Registration Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Hackathon Registration</h2>
+    <p class="subtitle">Enter your profile tracking specifications to trigger evaluation screening</p>
+    
+    <form id="registrationForm">
+      <div class="form-group">
+        <label>Full Student Name</label>
+        <input type="text" id="studentName" placeholder="  e.g.  aRjUn sInGh   " required>
+      </div>
+
+      <div class="form-group">
+        <label>Contact Email Address</label>
+        <input type="email" id="contactEmail" placeholder=" E.g. ARJUN@GMAIL.COM  " required>
+      </div>
+
+      <div class="form-group">
+        <label>Mobile Contact Number</label>
+        <input type="tel" id="mobileNumber" placeholder="9876543210" required>
+      </div>
+
+      <div class="form-group">
+        <label>College Institution</label>
+        <input type="text" id="collegeName" placeholder="nit kkr" required>
+      </div>
+
+      <div class="form-group">
+        <label>Raw Technical Skills Inventory</label>
+        <textarea id="rawSkills" placeholder="List domains, frameworks, experience layers..." required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Proposed Hackathon Abstract Concept Idea</label>
+        <textarea id="hackathonIdea" placeholder="Provide a highly contextual description framework detailing system architectures..." required></textarea>
+      </div>
+
+      <button type="submit">Submit Portal Registration</button>
+    </form>
+
+    <div class="footer-timestamp">
+      System Last Updated Tracker: <span class="stamp-time"></span>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
